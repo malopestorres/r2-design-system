@@ -1,0 +1,35 @@
+{
+  "name": "r2-design-system-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo do Design System oficial da R2 Agência Digital — Componentes React, Design Tokens e Guias de Estilo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "lint": "eslint . --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "storybook": "storybook dev -p 6006"
+  },
+  "keywords": [
+    "design-system",
+    "react",
+    "typescript",
+    "r2-digital",
+    "design-tokens",
+    "ui-kit",
+    "tailwindcss",
+    "accessibility"
+  ],
+  "author": "R2 Agência Digital Engine Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}

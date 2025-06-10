@@ -1,0 +1,21 @@
+{
+  "name": "@r2digital/tokens",
+  "version": "1.0.0",
+  "description": "Design tokens, color scales, typography and CSS custom properties for R2 Agência Digital",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./theme.css": "./src/styles/theme.css"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["tokens", "design-system", "r2digital", "colors", "typography"],
+  "license": "MIT"
+}

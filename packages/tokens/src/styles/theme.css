@@ -1,0 +1,39 @@
+/* R2 Agência Digital — Theme CSS Variables */
+:root {
+  /* Brand Palette */
+  --r2-color-brand-500: #FF5722;
+  --r2-color-brand-600: #FF3D00;
+  --r2-color-brand-gradient: linear-gradient(135deg, #FF6B00 0%, #FF3D00 100%);
+  --r2-color-brand-glow: rgba(255, 87, 34, 0.35);
+
+  /* Dark Theme Surfaces */
+  --r2-bg-main: #09090B;
+  --r2-bg-surface: #121215;
+  --r2-bg-card: #18181C;
+  --r2-bg-hover: #222228;
+
+  /* Borders & Dividers */
+  --r2-border-primary: #2D2D36;
+  --r2-border-muted: #3F3F4A;
+
+  /* Typography Colors */
+  --r2-text-primary: #FAFAFA;
+  --r2-text-secondary: #A1A1AA;
+  --r2-text-muted: #71717A;
+
+  /* Semantics */
+  --r2-status-success: #10B981;
+  --r2-status-warning: #F59E0B;
+  --r2-status-error: #EF4444;
+  --r2-status-info: #3B82F6;
+
+  /* Fonts */
+  --r2-font-heading: 'Outfit', sans-serif;
+  --r2-font-body: 'Inter', sans-serif;
+
+  /* Radii */
+  --r2-radius-sm: 4px;
+  --r2-radius-md: 8px;
+  --r2-radius-lg: 12px;
+  --r2-radius-full: 9999px;
+}

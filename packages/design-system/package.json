@@ -1,0 +1,23 @@
+{
+  "name": "@r2digital/design-system",
+  "version": "1.0.0",
+  "description": "Main entry package for R2 Agência Digital Design System",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@r2digital/tokens": "^1.0.0",
+    "@r2digital/ui": "^1.0.0"
+  },
+  "license": "MIT"
+}

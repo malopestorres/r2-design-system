@@ -1,0 +1,6 @@
+# Regras de Desenvolvimento — R2 Digital DS
+
+1. **Sempre use variáveis de ambiente CSS (`var(--r2-...)`)** em vez de cores hardcoded nos componentes.
+2. **Priorize Acessibilidade:** Todos os componentes clicáveis customizados DEVEM aceitar foco e teclas de navegação.
+3. **Mantenha os componentes puros:** Componentes UI não devem fazer fetch de dados externos.
+4. **Documentação Inline:** Adicione JSDoc em todas as interfaces exportadas para auto-complete no VS Code.

@@ -79,9 +79,7 @@ export function AgencyDashboard() {
 
 ## 🎨 Paleta de Cores Oficial (R2 Brand Palette)
 
-<p align="center" style="margin: 20px 0;">
-  <img src="assets/color-palette.svg" alt="R2 Digital Visual Color Palette" width="100%" />
-</p>
+![R2 Digital Visual Color Palette & Tokens](./assets/color-palette.png)
 
 ### Cores da Marca & Dark Theme
 

@@ -83,15 +83,27 @@ export function AgencyDashboard() {
   <img src="assets/color-palette.svg" alt="R2 Digital Visual Color Palette" width="100%" />
 </p>
 
+### Cores da Marca & Dark Theme
+
 | Amostra | Token | Hex | Aplicação |
 | :---: | :--- | :--- | :--- |
 | ![](https://img.shields.io/badge/-%23FF5722-FF5722?style=flat-square) | **`brand.500`** | `#FF5722` | Cor primária da marca R2 Agência Digital |
 | ![](https://img.shields.io/badge/-%23FF3D00-FF3D00?style=flat-square) | **`brand.600`** | `#FF3D00` | Cor de destaque / Hover vibrante |
 | ![](https://img.shields.io/badge/-%23FF6B00_➔_%23FF3D00-FF5722?style=flat-square) | **`brand.gradient`** | `linear-gradient(135deg, #FF6B00 0%, #FF3D00 100%)` | Gradiente oficial em botões primários e glows |
-| ![](https://img.shields.io/badge/-%2309090B-09090B?style=flat-square) | **`neutral.950`** | `#09090B` | Fundo principal da aplicação (Dark Theme) |
-| ![](https://img.shields.io/badge/-%23121215-121215?style=flat-square) | **`neutral.900`** | `#121215` | Superfícies elevadas e painéis de controle |
-| ![](https://img.shields.io/badge/-%2318181C-18181C?style=flat-square) | **`neutral.850`** | `#18181C` | Cards e containers visuais |
-| ![](https://img.shields.io/badge/-%232D2D36-2D2D36?style=flat-square) | **`neutral.700`** | `#2D2D36` | Bordas e divisores de conteúdo |
+| ![](https://img.shields.io/badge/-%2309090B-09090B?style=flat-square) | **`dark.950`** | `#09090B` | Fundo principal da aplicação (Dark Theme) |
+| ![](https://img.shields.io/badge/-%23121215-121215?style=flat-square) | **`dark.900`** | `#121215` | Superfícies elevadas e painéis de controle |
+| ![](https://img.shields.io/badge/-%2318181C-18181C?style=flat-square) | **`dark.850`** | `#18181C` | Cards e containers visuais |
+| ![](https://img.shields.io/badge/-%232D2D36-2D2D36?style=flat-square) | **`dark.700`** | `#2D2D36` | Bordas e divisores de conteúdo |
+
+### Escala Light Theme (Fundo Claro)
+
+| Amostra | Token | Hex | Aplicação |
+| :---: | :--- | :--- | :--- |
+| ![](https://img.shields.io/badge/-%23FFFFFF-FFFFFF?style=flat-square) | **`light.50`** | `#FFFFFF` | Fundo claro principal da aplicação |
+| ![](https://img.shields.io/badge/-%23F4F4F5-F4F4F5?style=flat-square) | **`light.100`** | `#F4F4F5` | Superfícies elevadas e painéis (Light Theme) |
+| ![](https://img.shields.io/badge/-%23E4E4E7-E4E4E7?style=flat-square) | **`light.200`** | `#E4E4E7` | Cards e containers em fundo claro |
+| ![](https://img.shields.io/badge/-%23D4D4D8-D4D4D8?style=flat-square) | **`light.300`** | `#D4D4D8` | Bordas e divisores em fundo claro |
+| ![](https://img.shields.io/badge/-%2318181B-18181B?style=flat-square) | **`light.900`** | `#18181B` | Texto principal em fundo claro |
 
 ---
 

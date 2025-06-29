@@ -1,5 +1,5 @@
-/* R2 Agência Digital — Theme CSS Variables */
-:root {
+/* R2 Agência Digital — Dual Theme CSS Variables (Dark & Light) */
+:root, [data-theme="dark"] {
   /* Brand Palette */
   --r2-color-brand-500: #FF5722;
   --r2-color-brand-600: #FF3D00;
@@ -27,13 +27,28 @@
   --r2-status-error: #EF4444;
   --r2-status-info: #3B82F6;
 
-  /* Fonts */
+  /* Fonts & Radii */
   --r2-font-heading: 'Outfit', sans-serif;
   --r2-font-body: 'Inter', sans-serif;
-
-  /* Radii */
   --r2-radius-sm: 4px;
   --r2-radius-md: 8px;
   --r2-radius-lg: 12px;
   --r2-radius-full: 9999px;
+}
+
+/* Light Theme Variables */
+[data-theme="light"] {
+  --r2-bg-main: #FFFFFF;
+  --r2-bg-surface: #F4F4F5;
+  --r2-bg-card: #E4E4E7;
+  --r2-bg-hover: #D4D4D8;
+
+  --r2-border-primary: #D4D4D8;
+  --r2-border-muted: #A1A1AA;
+
+  --r2-text-primary: #18181B;
+  --r2-text-secondary: #3F3F46;
+  --r2-text-muted: #71717A;
+
+  --r2-color-brand-glow: rgba(255, 87, 34, 0.2);
 }

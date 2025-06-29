@@ -1,13 +1,10 @@
-<p align="center">
-  <img src="assets/logo.png" alt="R2 Agência Digital Logo" width="140" style="border-radius: 20px;" />
-</p>
+<div align="center">
 
 # R2 Digital Design System 🎨⚡
 
-[![npm version](https://img.shields.io/badge/npm-v1.0.0-ff5722.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/)
-[![build status](https://img.shields.io/badge/build-passing-10b981.svg?style=for-the-badge&logo=github-actions)](https://github.com/malopestorres/r2-design-system)
-[![accessibility](https://img.shields.io/badge/WCAG-2.1_AA-3b82f6.svg?style=for-the-badge)](https://www.w3.org/WAI/standards-guidelines/wcag/)
-[![license](https://img.shields.io/badge/license-MIT-71717a.svg?style=for-the-badge)](LICENSE)
+<img src="assets/logo.png" alt="R2 Agência Digital Logo" width="140" style="border-radius: 20px; margin-top: 12px; margin-bottom: 20px;" />
+
+</div>
 
 Sistema de Design e biblioteca de componentes React de alta performance oficial da **R2 Agência Digital**. Desenvolvido em estrutura de monorepo moderna, focado em acessibilidade nativa, tipagem estrita em TypeScript e identidade visual marcante em Dark Mode.
 

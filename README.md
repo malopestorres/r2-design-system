@@ -79,15 +79,19 @@ export function AgencyDashboard() {
 
 ## 🎨 Paleta de Cores Oficial (R2 Brand Palette)
 
-| Token | Hex | Aplicação |
-| :--- | :--- | :--- |
-| **`brand.500`** | `#FF5722` | Cor primária da marca R2 Agência Digital |
-| **`brand.600`** | `#FF3D00` | Cor de destaque / Hover vibrante |
-| **`brand.gradient`** | `linear-gradient(135deg, #FF6B00 0%, #FF3D00 100%)` | Gradiente oficial em botões primários e glows |
-| **`neutral.950`** | `#09090B` | Fundo principal da aplicação (Dark Theme) |
-| **`neutral.900`** | `#121215` | Superfícies elevadas e painéis de controle |
-| **`neutral.850`** | `#18181C` | Cards e containers visuais |
-| **`neutral.700`** | `#2D2D36` | Bordas e divisores de conteúdo |
+<p align="center" style="margin: 20px 0;">
+  <img src="assets/color-palette.svg" alt="R2 Digital Visual Color Palette" width="100%" />
+</p>
+
+| Amostra | Token | Hex | Aplicação |
+| :---: | :--- | :--- | :--- |
+| ![](https://img.shields.io/badge/-%23FF5722-FF5722?style=flat-square) | **`brand.500`** | `#FF5722` | Cor primária da marca R2 Agência Digital |
+| ![](https://img.shields.io/badge/-%23FF3D00-FF3D00?style=flat-square) | **`brand.600`** | `#FF3D00` | Cor de destaque / Hover vibrante |
+| ![](https://img.shields.io/badge/-%23FF6B00_➔_%23FF3D00-FF5722?style=flat-square) | **`brand.gradient`** | `linear-gradient(135deg, #FF6B00 0%, #FF3D00 100%)` | Gradiente oficial em botões primários e glows |
+| ![](https://img.shields.io/badge/-%2309090B-09090B?style=flat-square) | **`neutral.950`** | `#09090B` | Fundo principal da aplicação (Dark Theme) |
+| ![](https://img.shields.io/badge/-%23121215-121215?style=flat-square) | **`neutral.900`** | `#121215` | Superfícies elevadas e painéis de controle |
+| ![](https://img.shields.io/badge/-%2318181C-18181C?style=flat-square) | **`neutral.850`** | `#18181C` | Cards e containers visuais |
+| ![](https://img.shields.io/badge/-%232D2D36-2D2D36?style=flat-square) | **`neutral.700`** | `#2D2D36` | Bordas e divisores de conteúdo |
 
 ---
 

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="r2Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00" />
+      <stop offset="100%" stop-color="#FF3D00" />
+    </linearGradient>
+    <style>
+      .title { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 700; font-size: 18px; fill: #FAFAFA; }
+      .subtitle { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 400; font-size: 13px; fill: #A1A1AA; }
+      .token-name { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 13px; fill: #FAFAFA; }
+      .token-hex { font-family: 'JetBrains Mono', monospace; font-weight: 400; font-size: 12px; fill: #A1A1AA; }
+      .token-desc { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 400; font-size: 12px; fill: #71717A; }
+    </style>
+  </defs>
+
+  <!-- Container Background -->
+  <rect width="900" height="380" rx="16" fill="#09090B" stroke="#2D2D36" stroke-width="1.5" />
+
+  <!-- Header -->
+  <text x="28" y="40" class="title">R2 Agência Digital — Visual Color Tokens Palette</text>
+  <text x="28" y="62" class="subtitle">Paleta de cores oficial, gradientes da marca e escalas de superfície Dark Mode</text>
+  <line x1="28" y1="80" x2="872" y2="80" stroke="#2D2D36" stroke-width="1" />
+
+  <!-- Grid Row 1: Brand Colors -->
+  <!-- Token 1: brand.500 -->
+  <g transform="translate(28, 105)">
+    <rect width="265" height="115" rx="12" fill="#121215" stroke="#2D2D36" stroke-width="1" />
+    <rect x="16" y="16" width="48" height="48" rx="8" fill="#FF5722" />
+    <text x="76" y="34" class="token-name">brand.500</text>
+    <text x="76" y="52" class="token-hex">#FF5722</text>
+    <text x="16" y="92" class="token-desc">Cor primária da marca R2 Agência Digital</text>
+  </g>
+
+  <!-- Token 2: brand.600 -->
+  <g transform="translate(317, 105)">
+    <rect width="265" height="115" rx="12" fill="#121215" stroke="#2D2D36" stroke-width="1" />
+    <rect x="16" y="16" width="48" height="48" rx="8" fill="#FF3D00" />
+    <text x="76" y="34" class="token-name">brand.600</text>
+    <text x="76" y="52" class="token-hex">#FF3D00</text>
+    <text x="16" y="92" class="token-desc">Cor de destaque / Hover vibrante</text>
+  </g>
+
+  <!-- Token 3: brand.gradient -->
+  <g transform="translate(606, 105)">
+    <rect width="265" height="115" rx="12" fill="#121215" stroke="#2D2D36" stroke-width="1" />
+    <rect x="16" y="16" width="48" height="48" rx="8" fill="url(#r2Gradient)" />
+    <text x="76" y="34" class="token-name">brand.gradient</text>
+    <text x="76" y="52" class="token-hex">#FF6B00 ➔ #FF3D00</text>
+    <text x="16" y="92" class="token-desc">Gradiente oficial em botões e glows</text>
+  </g>
+
+  <!-- Grid Row 2: Neutral & Dark Surfaces -->
+  <!-- Token 4: neutral.950 -->
+  <g transform="translate(28, 235)">
+    <rect width="200" height="115" rx="12" fill="#121215" stroke="#2D2D36" stroke-width="1" />
+    <rect x="16" y="16" width="48" height="48" rx="8" fill="#09090B" stroke="#3F3F4A" stroke-width="1" />
+    <text x="76" y="34" class="token-name">neutral.950</text>
+    <text x="76" y="52" class="token-hex">#09090B</text>
+    <text x="16" y="92" class="token-desc">Fundo principal (Dark Theme)</text>
+  </g>
+
+  <!-- Token 5: neutral.900 -->
+  <g transform="translate(244, 235)">
+    <rect width="200" height="115" rx="12" fill="#121215" stroke="#2D2D36" stroke-width="1" />
+    <rect x="16" y="16" width="48" height="48" rx="8" fill="#121215" stroke="#3F3F4A" stroke-width="1" />
+    <text x="76" y="34" class="token-name">neutral.900</text>
+    <text x="76" y="52" class="token-hex">#121215</text>
+    <text x="16" y="92" class="token-desc">Superfícies elevadas e painéis</text>
+  </g>
+
+  <!-- Token 6: neutral.850 -->
+  <g transform="translate(460, 235)">
+    <rect width="200" height="115" rx="12" fill="#121215" stroke="#2D2D36" stroke-width="1" />
+    <rect x="16" y="16" width="48" height="48" rx="8" fill="#18181C" stroke="#3F3F4A" stroke-width="1" />
+    <text x="76" y="34" class="token-name">neutral.850</text>
+    <text x="76" y="52" class="token-hex">#18181C</text>
+    <text x="16" y="92" class="token-desc">Cards e containers visuais</text>
+  </g>
+
+  <!-- Token 7: neutral.700 -->
+  <g transform="translate(676, 235)">
+    <rect width="195" height="115" rx="12" fill="#121215" stroke="#2D2D36" stroke-width="1" />
+    <rect x="16" y="16" width="48" height="48" rx="8" fill="#2D2D36" stroke="#3F3F4A" stroke-width="1" />
+    <text x="76" y="34" class="token-name">neutral.700</text>
+    <text x="76" y="52" class="token-hex">#2D2D36</text>
+    <text x="16" y="92" class="token-desc">Bordas e divisores</text>
+  </g>
+</svg>

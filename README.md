@@ -6,7 +6,9 @@
 
 </div>
 
-Sistema de Design e biblioteca de componentes React de alta performance oficial da **R2 Agência Digital**. Desenvolvido em estrutura de monorepo moderna, focado em acessibilidade nativa, tipagem estrita em TypeScript e identidade visual marcante em Dark Mode.
+Sistema de Design e biblioteca de componentes React de alta performance oficial da **R2 Agência Digital**. Desenvolvido em estrutura de monorepo moderna, focado em acessibilidade nativa, tipagem estrita em TypeScript e identidade visual marcante — com suporte nativo a **Dark Theme** e **Light Theme**.
+
+> **Peer dependencies:** `react >= 18`, `react-dom >= 18`, `typescript >= 5.0`
 
 ---
 
